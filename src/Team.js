@@ -42,7 +42,6 @@ class Team extends Component {
               value={this.state.teamName}
               onChange={this.updateTeamName}
             />
-            <button>Update</button>
           </li>
           <li>
             <label>Update Team 1 Score</label>
