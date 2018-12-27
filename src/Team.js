@@ -36,7 +36,7 @@ class Team extends Component {
         <p>{this.state.score}</p>
         <ul>
           <li>
-            <label>Update Team 1 Name</label>
+            <label>Update Team Name</label>
             <input
               type="text"
               value={this.state.teamName}
@@ -44,7 +44,7 @@ class Team extends Component {
             />
           </li>
           <li>
-            <label>Update Team 1 Score</label>
+            <label>Update Team Score</label>
             <button onClick={this.addOneToScore}>Add 1</button>
             <button onClick={this.subtractOneFromScore}>Subtract 1</button>
           </li>
